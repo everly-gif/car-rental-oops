@@ -1,0 +1,235 @@
+.color {
+    display: flex;
+    margin-bottom: 10px;
+}
+.color div{
+  width:25px;
+  height: 25px;
+  margin-right: 10px;
+}
+
+.color div:nth-child(1){
+    background-color: black;
+}
+
+.color div:nth-child(2){
+    background-color: red;
+}
+
+.card p{
+    font-size: larger;
+}
+
+.card{
+    padding: 10px;
+}
+
+.card-container{
+    padding: 30px;
+    background-color: #ccc;
+    display: flex;
+    flex-wrap :wrap;
+    column-gap : 5.5%;
+    row-gap: 30px;
+
+}
+
+.main-container{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+}
+
+.card-img-top{
+    height:170px;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+.main-container-1{
+    width: 100%;
+    min-height: 100vh;
+    padding: 30px;
+    background-color: #e2e2e2;
+    display: flex;
+    justify-content: center;
+}
+
+.main-container-child{
+    width: 80%;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 3.5%;
+    row-gap: 30px;
+    /* background-color: red; */
+}
+
+.car{
+    /* height: 500px; */
+    width: 31%;
+    background-color: white;
+    padding: 10px;
+}
+
+.car-img{
+    width: 100%;
+    height: 250px;
+    /* background-color: blue; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.car-img img{
+    width: 300px;
+}
+
+
+.car-details{
+    padding: 20px;
+    row-gap: 10px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+}
+
+.colors{
+    width: 100%;
+    height: 30px;
+    display: flex;
+    column-gap: 10px;
+}
+
+.colors p{
+    height: 30px;
+    width: 30px;
+}
+
+.car-details h2{
+    font-size: 22px;
+    font-weight: 400;
+}
+
+.main-container-form{
+    border: 2px solid black;
+    border-radius: 25px;
+    padding: 20px;
+}
+
+/* Car page css */
+
+
+
+.container-section{
+    width: 48.25%;
+    height: 550px;
+    display: flex;
+    flex-direction: column;
+    padding-top: 30px;
+    padding-bottom: 30px;
+  
+}
+
+.container-section:nth-last-of-type(1){
+    justify-content: space-between;
+}
+
+.container-section:nth-last-of-type(2){
+    row-gap: 15px;
+}
+
+.big-car-img{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.big-car-img > img{
+    width: 100%;
+}
+
+.img-options{
+    width: 100%;
+    height: 70px;
+    /* background-color: gray; */
+    display: flex;
+    justify-content: center;
+    column-gap: 20px;
+}
+
+.img-option{
+    width: 70px;
+    cursor: pointer;
+}
+
+.img-option > img{
+    width: 100%;
+    height : 50px;
+}
+
+.color-options{
+    width: 100%;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    column-gap: 20px;
+}
+
+.color-option{
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    padding: 5px;
+}
+
+.color-option > p{
+    background-color: black;
+    width: 100%;
+    height: 12px;
+}
+
+.booking-section 
+{
+width: 48.25%;
+height: 600px;
+/* background-color: red; */
+}
+
+.booking-section-img
+{
+width: 100%;
+height: 380px;
+overflow: hidden;
+border-radius: 10px;
+}
+
+.booking-section img 
+{
+width: 100%;
+
+}
+
+.booking-details
+{
+width: 100%;
+padding: 20px;
+}
+
+
+.booking-section:nth-of-type(2)
+{
+background-color: white;
+border-radius: 10px;
+padding:20px;
+display:flex;
+flex-direction: column;
+justify-content: center;
+row-gap: 20px;
+}
